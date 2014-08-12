@@ -25,9 +25,10 @@ temperature and water levels were for each plant container.
 Your program must, at a minimum:
 
 * take a file path as an argument
-* return some type of object (your own class, a hash, an array etc...) that has the
+* return a hash that has the
 average ph, average nutrient solution level, average temperature and average water level for _each_ container
 mentioned in the file
+
 
 ## Check your work
 

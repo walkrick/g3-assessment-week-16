@@ -56,6 +56,26 @@ pH   | nutrient solution level | temperature | water level
 ---- | ----------------------- | ----------- | -----------
 7.01 | 10.97                   | 67.61       | 4.7
 
+
+### Highest Average Temperature
+
+container2
+
+### Highest Absolute Water Level
+
+container3
+
+### Average stats for all containers
+
+pH   | nutrient solution level | temperature | water level
+---- | ----------------------- | ----------- | -----------
+5.99 | 23.25                   | 66.15       | 3.54
+
+### Highest absolute ph for
+
+container3
+
+
 ## References
 
 * [:col_sep option for CSV](http://ruby-doc.org/stdlib-2.1.1/libdoc/csv/rdoc/CSV.html)

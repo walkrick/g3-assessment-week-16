@@ -39,16 +39,19 @@ average ph, average nutrient solution level, average temperature and average wat
 The correct answers are:
 
 **data/container-1.tsv**
+
 pH  | nutrient solution level | temperature | water level
 --- | ----------------------- | ----------- | -----------
 5.0 | 40.25                   | 57.89       | 2.16
 
 **data/container-2.tsv**
+
 pH  | nutrient solution level | temperature | water level
 --- | ----------------------- | ----------- | -----------
 6.0 | 19.27                   | 73.52       | 3.79
 
 **data/container-3.tsv**
+
 pH   | nutrient solution level | temperature | water level
 ---- | ----------------------- | ----------- | -----------
 7.06 | 10.31                   | 67.73       | 4.78

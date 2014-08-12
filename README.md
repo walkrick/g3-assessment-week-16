@@ -3,8 +3,9 @@
 ## Background
 
 You want to automate your indoor garden setup.  Being a crafty, nerdy type of person, 
-you hooked up sensors to your plan containers, and you track metrics such as:
+you hooked up sensors to your plant containers, and you track metrics such as:
 
+* container name
 * pH levels
 * Nutrient solution levels
 * Temperature
@@ -13,48 +14,42 @@ you hooked up sensors to your plan containers, and you track metrics such as:
 Each container's data are written out to tab-delimited log files, in this format:
 
 ```
-<timestamp>	<pH>	<nutrient solution level>	<temperature>	<water level>
+<timestamp>	<container name>	<pH>	<nutrient solution level>	<temperature>	<water level>
 ```
-
-You have 3 containers, and the plants grew the best in this order:
-
-* Container 2 was the best
-* Container 3 was the second best
-* Container 1 was the worst
 
 ## Stories
 
-Your mission is to be able to be able to tell what the optimal pH, nutrient solution level,
-temperature and water level are.  To this you need to determine the average ph, 
-nutrient solution level, temperature and water level for each file in the `data` directory.
+Your mission is to be able to be able to tell what the average pH, nutrient solution level,
+temperature and water levels were for each plant container.
 
 Your program must, at a minimum:
 
-* take a file path
+* take a file path as an argument
 * return some type of object (your own class, a hash, an array etc...) that has the
-average ph, average nutrient solution level, average temperature and average water level for that file
+average ph, average nutrient solution level, average temperature and average water level for _each_ container
+mentioned in the file
 
 ## Check your work
 
 The correct answers are:
 
-**data/container-1.tsv**
-
-pH  | nutrient solution level | temperature | water level
---- | ----------------------- | ----------- | -----------
-5.0 | 40.25                   | 57.89       | 2.16
-
-**data/container-2.tsv**
-
-pH  | nutrient solution level | temperature | water level
---- | ----------------------- | ----------- | -----------
-6.0 | 19.27                   | 73.52       | 3.79
-
-**data/container-3.tsv**
+**container1**
 
 pH   | nutrient solution level | temperature | water level
 ---- | ----------------------- | ----------- | -----------
-7.06 | 10.31                   | 67.73       | 4.78
+5.01 | 39.02                   | 57.76       | 2.12
+
+**container2**
+
+pH   | nutrient solution level | temperature | water level
+---- | ----------------------- | ----------- | -----------
+5.95 | 19.77                   | 73.06       | 3.8
+
+**container3**
+
+pH   | nutrient solution level | temperature | water level
+---- | ----------------------- | ----------- | -----------
+7.01 | 10.97                   | 67.61       | 4.7
 
 ## References
 

@@ -27,8 +27,8 @@ Your program must, at a minimum:
 * take a file path as an argument
 * return a hash that has the average ph, average nutrient solution level, average temperature 
 and average water level for _each_ container mentioned in the file
-* return the name of the container that has the highest average temperature for the data loaded
-* return the name of the container that has the highest absolute water level for the data loaded
+* return the name of the container that has the highest average temperature for all of the data loaded
+* return the name of the container that has the highest absolute water level for all of the data loaded
 * return a hash that has the average ph, average nutrient solution level, average temperature
 and average water level for all of the data loaded. This is not separate for each container
 * return the name of a container that has the highest absolute ph for a date range. You will
